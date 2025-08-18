@@ -23,7 +23,9 @@ local MODS = {
     ["alodozhynn"] = true,
 }
 
-local TEMP_MODS = {}
+local TEMP_MODS = {
+    ["JORGE123456643"] = true,
+}
 
 local function IsDono(n) return DONOS[n] == true end
 local function IsMod(n) return MODS[n] == true end
