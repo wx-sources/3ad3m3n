@@ -21,6 +21,7 @@ local DONOS = {
 
 local MODS = {
     ["alodozhynn"] = true,
+    ["kaynahhhhh"] = true,
 }
 
 local TEMP_MODS = {
