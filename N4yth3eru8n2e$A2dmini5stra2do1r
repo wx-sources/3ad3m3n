@@ -279,7 +279,7 @@ local function CreateAdminUI()
     local panel = Instance.new("Frame", screen)
     panel.Size = UDim2.new(0, 320, 0, 450)
     panel.Position = UDim2.new(0.5, -160, 0.5, -225)
-    panel.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+    panel.BackgroundColor3 = Color3.fromRGB(48, 0, 48)
     panel.Active = true
     panel.Draggable = true
     Instance.new("UICorner", panel).CornerRadius = UDim.new(0, 8)
@@ -310,7 +310,7 @@ local function CreateAdminUI()
     btnClose.MouseButton1Click:Connect(function() screen:Destroy() end)
 
     local btnMin = Instance.new("TextButton", header)
-    btnMin.Text = ""
+    btnMin.Text = "="
     btnMin.Font = Enum.Font.GothamBold
     btnMin.TextSize = 14
     btnMin.TextColor3 = Color3.new(1, 1, 1)
@@ -340,7 +340,7 @@ local function CreateAdminUI()
         tabContainer.Visible = not minimized
         if minimized then
             panel.Size = UDim2.new(0, 180, 0, 36)
-            btnMin.Text = "❐"
+            btnMin.Text = "+"
         else
             panel.Size = fullSz
             btnMin.Text = ""
